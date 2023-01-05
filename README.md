@@ -21,14 +21,7 @@ Home for all things bash
     | #!/bin/bash | Informs the file the langauge being used. |
     | sleep X | E.g. Sleep 3 will pause the script for 3 seconds |
     | bash nameoffile.sh | Runs the file |
-    | ls -l | Lists the contents of the directory in a table format with columns including: |
-    • content permissions
-    • number of links to the content
-    • owner of the content
-    • group owner of the content
-    • size of the content in bytes
-    • last modified date / time of the • content
-    • file or directory name |
+    | ls -l | Lists the contents of the directory in a table format with columns including: | content permissions, number of links to the content, owner of the content, group owner of the content, size of the content in bytes, last modified date / time of the content, file or directory name |
     | clear | Clears the terminal |
     | variableName=”hello” | Defines a variable e.g. greeting=”hello” |
     | cat textFile.txt | Prints out the contexts of a text file. |
