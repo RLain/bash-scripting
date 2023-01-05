@@ -26,15 +26,17 @@ Home for all things bash
     | variableName=”hello” | Defines a variable e.g. greeting=”hello” |
     | cat textFile.txt | Prints out the contexts of a text file. |
     | mkdir nameOfDir | Makes a directory |
-    Here is the list of comparison operators for numbers you can use within bash scripts:
-  - Equal: `eq`
-  - Not equal: `ne`
-  - Less than or equal: `le`
-  - Less than: `lt`
-  - Greater than or equal: `ge`
-  - Greater than: `gt`
-  - Is null: `z`
 
-<aside>
-💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py
-</aside>
+### Operators
+
+Here is the list of comparison operators for numbers you can use within bash scripts:
+
+- Equal: `eq`
+- Not equal: `ne`
+- Less than or equal: `le`
+- Less than: `lt`
+- Greater than or equal: `ge`
+- Greater than: `gt`
+- Is null: `z`
+
+==💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py==
