@@ -39,4 +39,4 @@ Here is the list of comparison operators for numbers you can use within bash scr
 - Greater than: `gt`
 - Is null: `z`
 
-==💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py==
+<mark>💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py</mark>
