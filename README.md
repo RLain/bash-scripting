@@ -41,3 +41,20 @@ Here is the list of comparison operators for numbers you can use within bash scr
 - Is null: `z`
 
 `💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py`
+
+### Special Characters
+
+- Double quotes presrve some of the special characters
+- Single quotes preserve all of the special characters
+
+For example:
+var="name"
+echo $var
+echo "$var"
+echo '$var'
+
+Will return:
+
+name
+name
+$var

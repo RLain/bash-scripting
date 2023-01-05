@@ -1,9 +1,10 @@
 #!/bin/bash
-
+# This is a comment
 echo "Welcome, what is your name?"
 
 read name;
 
+#You can also comment throughout
 echo "Hello $name";
 
 echo "What is your favourite number?"
@@ -48,3 +49,29 @@ if [[ "$name" == "Rebecca" ]] && [[ "$age" == "30" ]]
   else
     echo "Person not found"
 fi
+
+sleep 1
+
+echo "testing double vs single quotes"
+
+var="name"
+echo $var
+echo "$var"
+echo '$var'
+
+
+sleep 1
+
+echo "testing functions"
+
+myFunction {
+    echo "Welcome to myFunction"
+    if [ 1 == 1 ]
+      then
+        echo "maths"
+      else
+        echo "not maths"
+    fi
+}
+
+myFunction
