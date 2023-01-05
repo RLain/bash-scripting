@@ -14,8 +14,9 @@ Home for all things bash
   - The script files also need to have the “execute” permission to allow them to be run. To add this permission to a file with filename: `script.sh` use: **chmod +x nameOfScript.sh**
   - [Cheat sheet](https://learnxinyminutes.com/docs/bash/)
     **Terminal commands: Bash**
-    | which $SHELL | Tells you which shell you are using e.g. bsh or zsh |
+    | Command | Description |
     | ----------------------------------------- | ----------------------------------------------------------------------------- |
+    | which $SHELL | Tells you which shell you are using e.g. bsh or zsh |
     | echo “words” | Prints stuff |
     | nano http://nameoffile.sh or textFile.txt | Creates or edits a file |
     | #!/bin/bash | Informs the file the langauge being used. |
@@ -39,4 +40,4 @@ Here is the list of comparison operators for numbers you can use within bash scr
 - Greater than: `gt`
 - Is null: `z`
 
-<mark>💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py</mark>
+`💡 You can’t run a python script using bash! You can make and update the file using nano in the shell but need to execute using $ python3 nameOfFile.py`
